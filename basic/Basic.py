@@ -60,36 +60,36 @@ def square_digits(n): # 2nd Solution
     return int(f)
 
 
-# Breaking chocolate problem
+# Breaking chocolate problem - 7 kyu
 def break_chocolate(n, m):
     return (n*m)-1 if (n*m>0) else 0
 
 
-# Multiply the number
+# Multiply the number - 8 kyu
 def multiply(n):
     return n*pow(5,len(str(abs(n))))
 
 
-# Stringy Strings
+# Stringy Strings - 8 kyu
 def stringy(size):
     return "10" * int(size/2) + "1" * int(size%2)
 
 
-# Name on billboard
+# Name on billboard - 8 kyu
 def billboard(name, price=30):
     cost = 0
     for x in range(len(name)): cost += price
     return cost
 
 
-# Lost number in number sequence
+# Lost number in number sequence - 7 kyu
 def find_deleted_number(arr, mixed_arr):
     for x in range(len(mixed_arr)):
             arr.remove(mixed_arr[x])
     return arr[0] if len(arr)>0 else 0
 
 
-# Find the smallest integer in the array
+# Find the smallest integer in the array - 8 kyu
 def find_smallest_int(arr): # 1st Solution
     return sorted(arr)[0]
 
@@ -97,7 +97,7 @@ def find_smallest_int(arr): # 2nd Solution
     return min(arr)
 
 
-# Vowel Count
+# Vowel Count - 7 kyu
 def get_count(sentence):
     vows = 'aeiou'
     count = 0
@@ -106,7 +106,7 @@ def get_count(sentence):
     return count
 
 
-# Selective fear of numbers
+# Selective fear of numbers - 7 kyu
 def am_I_afraid(day,num):
     fear = {'Monday':num==12,
             'Tuesday':num>95,
@@ -123,7 +123,7 @@ def multiply(a, b):
     return a * b
 
 
-# These are not my grades! (Revamped !)
+# These are not my grades! (Revamped !) - 7 kyu
 class Student:
 
     def __init__(self, first_name, last_name, grades=None):
@@ -141,7 +141,7 @@ class Student:
         return sum(self.grades) / len(self.grades)
     
 
-# Person Class Bug
+# Person Class Bug - 7 kyu
 class Person():
     def __init__(self, first_name, last_name, age):
         self.first_name = first_name
@@ -150,17 +150,17 @@ class Person():
         self.full_name = first_name+" "+last_name
 
 
-# Two numbers are positive
+# Two numbers are positive - 7 kyu
 def two_are_positive(a, b, c):
     return sum([a>0, b>0, c>0])==2
 
 
-# Even or Odd
+# Even or Odd - 8 kyu
 def even_or_odd(number):
     return 'Even' if number%2==0 else 'Odd'
 
 
-# Double Char
+# Double Char - 8 kyu
 def double_char(s):
     doubled = ""
     for x in s:
@@ -170,13 +170,13 @@ def double_char(s):
     return doubled
 
 
-# Jenny's secret message
+# Jenny's secret message - 8 kyu
 def greet(name):
     if name == "Johnny":
         return "Hello, my love!"
     return "Hello, {name}!".format(name=name)
 
 
-# Thinkful - String Drills: Quotable
+# Thinkful - String Drills: Quotable - 7 kyu
 def quotable(name, quote):
     return name + ' said: "' + quote + '"'
