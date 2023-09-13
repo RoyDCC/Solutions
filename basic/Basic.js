@@ -36,3 +36,14 @@ function countSheeps(sheep) {
     });   
     return count;
 }
+
+
+// Count the Ones (binary number) - 7 kyu
+function hammingWeight(x) {
+    let i = 0
+    while (x > 0) {
+      i += x & 1
+      x >>= 1
+    }
+    return i
+}
