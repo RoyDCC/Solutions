@@ -3,7 +3,8 @@ function multiply(a, b){
     return a * b
 }
 
-//Sum of positives - 8 kyu
+
+// Sum of positives - 8 kyu
 function positiveSum(arr) {
     let sum = 0;
     arr.forEach(n => {
@@ -12,7 +13,8 @@ function positiveSum(arr) {
     return sum;
 }
 
-//Check same case - 8 kyu
+
+// Check same case - 8 kyu
 function sameCase(a, b){
     let upper = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     let lower = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -23,4 +25,14 @@ function sameCase(a, b){
     }else{
         return -1;
     }
+}
+
+
+// Counting sheep... - 8 kyu
+function countSheeps(sheep) {
+    let count = 0;
+    sheep.forEach(e => {
+        if (e) count++;
+    });   
+    return count;
 }

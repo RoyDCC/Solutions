@@ -180,3 +180,8 @@ def greet(name):
 # Thinkful - String Drills: Quotable - 7 kyu
 def quotable(name, quote):
     return name + ' said: "' + quote + '"'
+
+
+# Counting sheep... - 8 kyu
+def count_sheeps(sheep):
+    return sheep.count(True)
