@@ -103,3 +103,17 @@ const solve = (x, y) => x / y
 function capitalizeWord(word) {
   return word[0].toUpperCase()+word.substring(1);
 }
+
+
+//Unexpected parsing - 8 kyu
+function getStatus(isBusy) { //1st
+  var msg = (isBusy ? "busy" : "available");
+  return {status: msg}
+}
+function getStatus(isBusy) { //2nd
+  var msg = (isBusy ? "busy" : "available");
+  return (
+  {
+    status: msg
+  })
+}
