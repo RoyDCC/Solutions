@@ -48,7 +48,58 @@ function hammingWeight(x) {
     return i
 }
 
+
 // Over The Road - 7 kyu
 function overTheRoad(address, n){
     return n*2 - address + 1;
+}
+
+
+// Get Planet Name By ID - 8 kyu
+function getPlanetName(id){
+  var name;
+  switch(id){
+    case 1:
+      name = 'Mercury'
+      break
+    case 2:
+      name = 'Venus'
+      break
+    case 3:
+      name = 'Earth'
+      break
+    case 4:
+      name = 'Mars'
+      break
+    case 5:
+      name = 'Jupiter'
+      break
+    case 6:
+      name = 'Saturn'
+      break
+    case 7:
+      name = 'Uranus'
+      break
+    case 8:
+      name = 'Neptune'
+  }
+  
+  return name;
+}
+
+
+// Return to Sanity - 8 kyu
+function mystery() {
+  var results = {sanity: 'Hello'};
+  return results;
+}
+
+
+// Incorrect division method - 8 kyu
+const solve = (x, y) => x / y
+
+
+// Capitalization and Mutability - 8 kyu
+function capitalizeWord(word) {
+  return word[0].toUpperCase()+word.substring(1);
 }
