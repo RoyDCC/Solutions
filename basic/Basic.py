@@ -185,3 +185,9 @@ def quotable(name, quote):
 # Counting sheep... - 8 kyu
 def count_sheeps(sheep):
     return sheep.count(True)
+
+
+# Get Planet Name By ID - 8 kyu
+def get_planet_name(id):
+    name= {1: "Mercury", 2: "Venus", 3: "Earth", 4: "Mars", 5: "Jupiter", 6: "Saturn", 7: "Uranus", 8: "Neptune"}
+    return name[id]
