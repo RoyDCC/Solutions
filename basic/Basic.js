@@ -47,3 +47,8 @@ function hammingWeight(x) {
     }
     return i
 }
+
+// Over The Road - 7 kyu
+function overTheRoad(address, n){
+    return n*2 - address + 1;
+}
