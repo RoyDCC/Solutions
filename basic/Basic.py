@@ -191,3 +191,8 @@ def count_sheeps(sheep):
 def get_planet_name(id):
     name= {1: "Mercury", 2: "Venus", 3: "Earth", 4: "Mars", 5: "Jupiter", 6: "Saturn", 7: "Uranus", 8: "Neptune"}
     return name[id]
+
+    
+# More than Zero? - 7 kyu
+def corrections(x):
+    return (str(x) + " is more than zero.") if x > 0 else (str(x) + " is equal to or less than zero.")
