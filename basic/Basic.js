@@ -105,7 +105,7 @@ function capitalizeWord(word) {
 }
 
 
-//Unexpected parsing - 8 kyu
+// Unexpected parsing - 8 kyu
 function getStatus(isBusy) { //1st
   var msg = (isBusy ? "busy" : "available");
   return {status: msg}
@@ -119,9 +119,15 @@ function getStatus(isBusy) { //2nd
 }
 
 
-//Russian postal code checker - 7 kyu
+// Russian postal code checker - 7 kyu
 function zipvalidate(postcode){ //1st
   return postcode.match(/^[12346]\d{5}$/) ? true:false;
 }
 
 let  zipvalidate = p => p.match(/^[12346]\d{5}$/) ? true:false; //2nd
+
+
+// Disemvowel Trolls - 7 kyu
+function disemvowel(str) {
+  return str.replace(/[aeiouAEIOU]/g,'');
+}
