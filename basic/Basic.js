@@ -131,3 +131,10 @@ let  zipvalidate = p => p.match(/^[12346]\d{5}$/) ? true:false; //2nd
 function disemvowel(str) {
   return str.replace(/[aeiouAEIOU]/g,'');
 }
+
+
+// Every archer has its arrows - 7 kyu
+function archersReady(archers){
+  if (archers.length<1) return false
+  return archers.every(a => a>=5);
+}
