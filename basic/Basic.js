@@ -117,3 +117,11 @@ function getStatus(isBusy) { //2nd
     status: msg
   })
 }
+
+
+//Russian postal code checker - 7 kyu
+function zipvalidate(postcode){ //1st
+  return postcode.match(/^[12346]\d{5}$/) ? true:false;
+}
+
+let  zipvalidate = p => p.match(/^[12346]\d{5}$/) ? true:false; //2nd
