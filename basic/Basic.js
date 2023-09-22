@@ -138,3 +138,14 @@ function archersReady(archers){
   if (archers.length<1) return false
   return archers.every(a => a>=5);
 }
+
+
+// Get the Middle Character - 7 kyu
+function getMiddle(str){
+  let middle= (str.length/2)-1;
+  if(str.length%2==0){
+      return str.substring(middle, middle+2);
+  }else{
+      return str.substring(middle+1, middle+2);
+  }
+}
