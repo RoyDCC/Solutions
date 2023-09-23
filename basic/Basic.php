@@ -7,9 +7,16 @@ function greet($name) {
     return "Hello, $name!";
 }
 
+
 // Highest and Lowest - 7 kyu
 function highAndLow($numbers){
     $numbers = explode(" ",$numbers);
     return max($numbers)." ".min($numbers);
+}
+
+
+// You Can't Code Under Pressure #1 - 8 kyu
+function doubleInteger($i){
+    return $i*2;
 }
 ?>
