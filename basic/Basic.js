@@ -149,3 +149,8 @@ function getMiddle(str){
       return str.substring(middle+1, middle+2);
   }
 }
+
+// You Can't Code Under Pressure #1 - 8 kyu
+function doubleInteger(i) {
+  return i * 2;
+}
