@@ -9,3 +9,11 @@ public class Greeter {
     return String.format("Hello, %s!", name);
   }
 }
+
+
+// You Can't Code Under Pressure #1 - 8 kyu
+class Java {
+  public static int doubleInteger(int i) {
+    return i*2;
+  }
+}
