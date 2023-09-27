@@ -10,3 +10,11 @@ public static class Kata
     return "Hello, " + name + "!";
   }
 }
+
+
+// Multiply - 8 kyu
+public class CustomMath {
+    public static int multiply(int a, int b) {
+        return a*b;
+    }
+}
