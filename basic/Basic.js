@@ -154,3 +154,8 @@ function getMiddle(str){
 function doubleInteger(i) {
   return i * 2;
 }
+
+// FIXME: Replace all dots - 8 kyu
+var replaceDots = function(str) {
+  return str.replace(/\./g, '-');
+}
