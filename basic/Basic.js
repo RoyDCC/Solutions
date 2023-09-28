@@ -150,12 +150,27 @@ function getMiddle(str){
   }
 }
 
+
 // You Can't Code Under Pressure #1 - 8 kyu
 function doubleInteger(i) {
   return i * 2;
 }
 
+
 // FIXME: Replace all dots - 8 kyu
 var replaceDots = function(str) {
   return str.replace(/\./g, '-');
+}
+
+
+// Ninja vs Samurai: Strike - 7 kyu
+class Warrior {
+  constructor(name) {
+    this.name = name;
+    this.health = 100;
+  }
+  
+  strike(enemy, swings) {
+    enemy.health = Math.max(0, enemy.health - (swings * 10));   
+  }
 }
