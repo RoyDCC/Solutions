@@ -19,4 +19,11 @@ function highAndLow($numbers){
 function doubleInteger($i){
     return $i*2;
 }
+
+
+// Isograms - 7 kyu
+function isIsogram($string) {
+  $arrayOfString = str_split(strtolower($string));
+  return count($arrayOfString) == count(array_unique($arrayOfString));
+}
 ?>
