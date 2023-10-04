@@ -174,3 +174,10 @@ class Warrior {
     enemy.health = Math.max(0, enemy.health - (swings * 10));   
   }
 }
+
+
+// Return Negative - 8 kyu
+function makeNegative(num) {
+  if (num<0) return num;
+  else return 0-num;
+}

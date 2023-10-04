@@ -196,3 +196,8 @@ def get_planet_name(id):
 # More than Zero? - 7 kyu
 def corrections(x):
     return (str(x) + " is more than zero.") if x > 0 else (str(x) + " is equal to or less than zero.")
+
+
+# Return Negative - 8 kyu
+def make_negative( number ):
+    return number if number<0 else -number
