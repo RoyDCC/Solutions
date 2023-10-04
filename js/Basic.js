@@ -181,3 +181,22 @@ function makeNegative(num) {
   if (num<0) return num;
   else return 0-num;
 }
+
+
+// Debug Basic Calculator - 7 kyu
+var calculate = function calculate(a, o, b) {
+  var result = 0;
+
+  if (o === "+") {
+    return a + b;
+  } else if (o == "-") {
+    return a - b;
+  } else if (o == "/") {
+    if (b == 0) return null;
+    return a / b;
+  } else if (o == "*") {
+    return a * b;
+  }
+
+  return null;
+};
