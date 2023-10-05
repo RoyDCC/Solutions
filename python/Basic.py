@@ -201,3 +201,9 @@ def corrections(x):
 # Return Negative - 8 kyu
 def make_negative( number ):
     return number if number<0 else -number
+
+
+# Return to Sanity - 8 kyu
+def mystery():
+    results = {'sanity': 'Hello'}
+    return results
