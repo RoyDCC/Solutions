@@ -200,3 +200,15 @@ var calculate = function calculate(a, o, b) {
 
   return null;
 };
+
+
+// Debug Sum of Digits of a Number - 7kyu
+const getSumOfDigits = (n)=>{
+  let arr = n.toString().split('');
+  let sum=0
+  
+  arr.forEach(element => {
+    sum+=parseInt(element) 
+  });
+  return sum
+}
