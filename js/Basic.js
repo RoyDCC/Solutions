@@ -202,7 +202,7 @@ var calculate = function calculate(a, o, b) {
 };
 
 
-// Debug Sum of Digits of a Number - 7kyu
+// Debug Sum of Digits of a Number - 7 kyu
 const getSumOfDigits = (n)=>{
   let arr = n.toString().split('');
   let sum=0
@@ -212,3 +212,7 @@ const getSumOfDigits = (n)=>{
   });
   return sum
 }
+
+
+// Arrow sum 8 kyu
+const arrSum = (a,b)=>a+b;
