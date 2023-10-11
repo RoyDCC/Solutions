@@ -214,5 +214,9 @@ const getSumOfDigits = (n)=>{
 }
 
 
-// Arrow sum 8 kyu
+// Arrow sum - 8 kyu
 const arrSum = (a,b)=>a+b;
+
+
+// Arrow mult 8 kyu
+const arrMult = (a,b)=>a*b;
