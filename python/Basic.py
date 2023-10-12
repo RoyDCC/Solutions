@@ -207,3 +207,11 @@ def make_negative( number ):
 def mystery():
     results = {'sanity': 'Hello'}
     return results
+
+
+# Lambda sum 8 - kyu
+sum = lambda a,b:a+b
+
+
+# Lambda mult 8 - kyu
+sum = lambda a,b:a*b
